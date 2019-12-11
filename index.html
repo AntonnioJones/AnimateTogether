@@ -1,14 +1,19 @@
 <!DOCTYPE html>
-<html lang = "en-us">
-	<header>
-		<meta charset="utf-8"/>
-		<meta name="viewPort" content="width=device-width, initial-scale=1" />
-		<link rel="stylesheet" type="text/css" href=css/Main.css>
-	</header>
-	<h1> Hello World </h1>
-	<div id = "first_section">
-		<p>
-			I am writing this new html stuff
-		</p>
-	</div>
+<html>
+  <script src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+  <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+  <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+  <body>
+
+    <div id="mydiv"></div>
+
+    <script type="text/babel">
+      class Hello extends React.Component {
+        render() {
+          return <h1>Hello World!</h1>
+        }
+      }
+    </script>
+
+  </body>
 </html>
