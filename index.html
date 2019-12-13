@@ -1,19 +1,24 @@
 <!DOCTYPE html>
 <html>
-  <script src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
-  <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
-  <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+
+  <head>
+    <meta charset="utf-8" lang="en"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>This is a nice Page </title>
+    <link rel="stylesheet" type="text/css" href="CSS/Main.css"></link>
+    <script type="text/javascript" src="JavaScript/test.js"></script>
+  </head>
+
+
   <body>
+      <header>
+          <h1 id = "logo">This is a header</h1>
 
-    <div id="mydiv"></div>
-
-    <script type="text/babel">
-      class Hello extends React.Component {
-        render() {
-          return <h1>Hello World!</h1>
-        }
-      }
-    </script>
-
+          <div id = "login_wrapper">
+              <input id = "email_input" type="text">
+              <input id = "password_input" type="password">
+          </div>
+      </header>
   </body>
+
 </html>

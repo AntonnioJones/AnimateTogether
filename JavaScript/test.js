@@ -1,4 +1,6 @@
-const hello = "hi";
+//this function finds the biggest number
+function findBiggestNumber(a,b){
+  a > b ? console.log(a + " is bigger") : console.log(b + " is bigger");
+}
 
-console.log(hello);
-alert(hello);
+findBiggestNumber(6,8);
