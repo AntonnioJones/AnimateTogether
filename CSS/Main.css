@@ -1,3 +1,8 @@
+* {
+  box-sizing: border-box;
+  font-family: inherit;
+}
+
 header{
   background-color: blue;
   position: fixed;
@@ -9,8 +14,7 @@ header{
 }
 
 input{
-  margin-right: 1rem;
-  padding-right: 1rem;
+  
 }
 
 #logo{
@@ -18,7 +22,8 @@ input{
 }
 
 #login_wrapper{
-  position: absolute;
-  left:56%;
-  top: 50%;
+  position: relative;
+  left: 70%;
+  top: -40%;
+  margin-bottom: 55px;
 }
